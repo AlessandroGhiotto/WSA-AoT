@@ -4,10 +4,11 @@ Project on AOT
 
 TODO - notes
 
-- ~~data gathering~~
-- graph of replies (comments) + topology analysis
-- community detection
-  - look also at the different subreddits (graph colored based on where we took submissions)
+- ~~data gathering~~  
+  didn't do a base preprocessing (stopwords, stemming...) since we are going to use different models and the preprocessing may be different. Do it when necessary
+- ~~graph of replies (comments) + topology analysis~~
+- ~~community detection~~
+  - ~~look also at the different subreddits (graph colored based on where we took submissions)~~
   - wordcloud per community
 - sentiment analysis:
   - global vs over time
@@ -20,5 +21,3 @@ TODO - notes
   - extract characters names, places...
   - look at sentiment for analyzing most lover/hated characters
   - character co-occurence graph
-
-Note: didn't do a base preprocessing (stopwords, stemming...) since we are going to use different models and the preprocessing may be different. Do it when necessary
