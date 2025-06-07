@@ -2,23 +2,47 @@
 
 Project on AOT
 
-TODO - notes
+## Table of Contents
 
-- ~~data gathering~~  
-  didn't do a base preprocessing (stopwords, stemming...) since we are going to use different models and the preprocessing may be different. Do it when necessary
-- ~~graph of replies (comments) + topology analysis~~
-  - ~~look also at the different subreddits (graph colored based on where we took submissions)~~
-  - ~~community detection on separated time windows~~ t
-- ~~community detection~~
-  - wordcloud per community (spostare dove si fa content analysis)
-- sentiment analysis:
-  - ~~global vs over time~~
-  - analysis per cluster (based on community detection - things like sentiment distribution per cluster)
-  - ~~start with lexicon based (done in class) and maybe try transformers based (huggingface)~~
-- topic modeling (content analysis):
-  - worldcloud per community / per time window (o per grafi splittati)
-  - idem per subreddit diversi
-- ~~NER:~~
-  - ~~extract characters names, places...~~
-  - ~~look at sentiment for analyzing most lover/hated characters~~
-  - ~~character co-occurence graph~~
+1. **Data Gathering and Analysis**
+   - Data Gathering
+   - Basic Data Analysis
+2. **Topologycal Analysis**
+   - Build the graph
+   - Graph Statistics
+   - Centrality measure:
+     1. Degree c.
+     2. Betweenness c.
+     3. Closeness c.
+   - Graph by subreddit
+3. **Community Detection**
+   - Community detection
+     1. Greedy modularity
+     2. Louvain
+     3. FluidC
+     4. Infomap
+   - Community detection in separated time windows
+4. **Sentiment Analysis**
+   - Text Preprocessing
+   - Sentiment Analysis
+     1. Affin
+     2. NLTK Opinion Lexicon
+     3. Vader
+     4. Transformer based
+   - Sentiment Analysis: By Communities
+5. **Topic Modeling**
+   - Topic Modeling per community:
+     - WordCloud
+     - BERTopic
+   - Topic modeling per time window
+6. **Named entity recognition**
+   - NER:
+     - en_core_web_sm
+     - en_core_web_trf
+   - Characters co-occurence graph:
+     - Home-made vocabulary of character
+     - NEL
+   - Bridge with Sentiment Analysis and Community detection
+     - Characters Sentiment
+     - Characters per Community
+     - Characters Sentiment per Community
