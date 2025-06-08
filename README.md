@@ -1,8 +1,21 @@
 # Web and Social Networks Search and Analysis
 
-Project on AOT
+## ⚔️ Titans of Discourse
 
-## Table of Contents
+_Attack on Titan_ (_Shingeki no Kyojin_) has cultivated a massive and global fandom, much of which congregates on online platforms such as Reddit. This project explores the social dynamics, sentiment polarity, and network structures within the many subreddit dedicated to the show. By applying data analysis, topological network exploration, community detection, sentiment analysis, and named entity recognition (NER) focused on character mentions, the study uncovers how fans interact, how discussions evolve, and how emotional tone shifts over time. Additionally, character NER offers insights into which figures dominate discourse and how they are perceived. Ultimately, this project aims to deepen our understanding of modern fan communities and their dynamic online ecosystems.
+
+## ⚙️ Environment
+
+To reproduce the results, create the conda environment:
+
+```bash
+conda env create -f environment.yml
+conda activate reddit-topic-modeling
+```
+
+## 📚 Table of Contents
+
+Each notebook handles a specific step in the pipeline:
 
 1. **Data Gathering and Analysis**
    - Data Gathering
