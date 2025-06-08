@@ -20,7 +20,7 @@ Each notebook handles a specific step in the pipeline:
 1. **Data Gathering and Analysis**
    - Data Gathering
    - Basic Data Analysis
-2. **Topologycal Analysis**
+2. **Topological Analysis**
    - Build the graph
    - Graph Statistics
    - Centrality measure:
@@ -48,6 +48,7 @@ Each notebook handles a specific step in the pipeline:
      - WordCloud
      - BERTopic
    - Topic modeling per time window
+   - Topic modeling per subreddit
 6. **Named entity recognition**
    - NER:
      - en_core_web_sm
