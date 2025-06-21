@@ -10,7 +10,7 @@ To reproduce the results, create the conda environment:
 
 ```bash
 conda env create -f environment.yml
-conda activate reddit-topic-modeling
+conda activate wsa_env
 ```
 
 ## 📚 Table of Contents
